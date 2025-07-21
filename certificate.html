@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Certificates</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+
+  <div class="top-right-nav">
+    <a href="home.html" class="nav-btn all-btn">Home</a>
+    <a href="about.html" class="nav-btn all-btn">About Me</a>
+    <a href="projects.html" class="nav-btn all-btn">Projects</a>
+    <a href="contact.html" class="nav-btn all-btn">Contact Me</a>
+    <a href="blog.html" class="nav-btn all-btn active">Blog</a>
+  </div>
+
+ 
+  <section class="landing">
+    <div class="content">
+      <h1>My <span class="highlight">Certificates</span></h1>
+      <p>Here are some certifications I’ve earned while upskilling and gaining practical knowledge.</p>
+
+      
+      <div class="certificates-container">
+
+        
+        <div class="certificate-card">
+          <h2>Full Stack Development</h2>
+          <h4>Issued by: FNB App Academy</h4>
+            <p>
+            Gained practical experience in building responsive web applications using 
+            HTML, CSS, and JavaScript for the front end. On the back end, worked with Python
+             to handle logic and data processing. The program emphasized hands-on learning,
+              collaborative coding, and real-world project development.</p>
+          <a href="fnb.pdf" target="_blank" class="btn download-btn">
+            <i class="fas fa-file-pdf"></i> View Certificate
+          </a>
+        </div>
+
+        
+        <div class="certificate-card">
+          <h2>Web Design & Development</h2>
+          <h4>Issued by: LinkedIn</h4>
+            <p>
+                Completed a comprehensive course on web design and development, covering HTML, 
+                CSS, 
+                and JavaScript. The course included practical projects to build responsive and 
+                interactive 
+                web pages, enhancing my skills in front-end development.</p>
+          <a href="linkedin.pdf" target="_blank" class="btn download-btn">
+            <i class="fas fa-image"></i> View Certificate
+          </a>
+        </div>
+
+        
+
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; <span id="year"></span> Yanga Jilaji. All rights reserved.</p>
+    <p>Connect with me:</p>
+    <div class="footer-links">
+      <a href="https://www.facebook.com/share/15wirzyfU1/?mibextid=wwXIfr" target="_blank" title="Facebook">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://www.instagram.com/yanga.jilaji?igsh=aTV6bDg5M3lvcm02&utm_source=qr" target="_blank" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://github.com/222582731" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

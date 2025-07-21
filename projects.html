@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Projects - Yanga Jilaji</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <div class="top-right-nav">
+    <a href="home.html" class="nav-btn all-btn">Home</a>
+    <a href="about.html" class="nav-btn all-btn">About Me</a>
+    <a href="contact.html" class="nav-btn all-btn">Contact Me</a>
+    <a href="certificate.html" class="nav-btn all-btn">Certificates</a>
+    <a href="blog.html" class="nav-btn all-btn active">Blog</a>
+  </div>
+
+  <section class="landing projects-page">
+    <h1>My Projects</h1>
+
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="tutorfinders.png" alt="tutorfinders" />
+        <h3>Tutor Finder System</h3>
+        <p>A web application that connects students with tutors for academic support. 
+          Students can log in, browse available modules, and view profiles of tutors
+           specializing in each subject. The system displays tutor feedback and ratings 
+           from previous students, helping learners make informed decisions before booking 
+           sessions. Built with HTML, CSS, and JavaScript, the platform streamlines the process
+            of finding and booking tutors tailored to students’ specific needs</p>
+        <div class="project-links">
+          <a href="https://github.com/Amanda-Satu/TutorFinderSystem" target="_blank" class="btn github-btn">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="museum.png" alt="MuseumManagementSystem" />
+        <h3>Museum Management System</h3>
+        <p>A backend system developed using Java Spring Boot to efficiently manage museum operations. 
+          It tracks exhibitions, monitors visitor attendance, records ticket sales, and manages
+           detailed information about artifacts on display. This system streamlines administrative
+            tasks and provides valuable insights into visitor engagement and exhibit popularity.</p>
+        <div class="project-links">
+          <a href="https://github.com/222582731/museumManagementSystems" target="_blank" class="btn github-btn">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <img src="sqlnanny.png" alt="Project 3 Screenshot" />
+        <h3>ItumelengsNannyAtYourService</h3>
+        <p>A comprehensive database system designed to manage babysitting sessions efficiently.
+           It tracks parents, children, nannies, drivers, and payments while linking all related 
+           data to babysitting sessions. The system supports detailed record-keeping including 
+           session schedules, payment management with constraints, and reporting features like 
+           session summaries and revenue calculations. Built using SQL with triggers to enforce
+            business rules and views to simplify data retrieval, this project demonstrates effective
+             data organization and integrity for a childcare service</p>
+        <div class="project-links">
+          <a href="https://github.com/222582731/Itumeleng-sNanny" target="_blank" class="btn github-btn">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <footer>
+    <p>&copy; <span id="year"></span> Yanga Jilaji. All rights reserved.</p>
+    <p>Connect with me:</p>
+    <div class="footer-links">
+      <a href="https://www.facebook.com/share/15wirzyfU1/?mibextid=wwXIfr" target="_blank" title="Facebook">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://www.instagram.com/yanga.jilaji?igsh=aTV6bDg5M3lvcm02&utm_source=qr" target="_blank" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://github.com/222582731" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
