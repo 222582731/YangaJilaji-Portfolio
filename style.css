@@ -406,7 +406,20 @@ footer {
 
 /*Blog page*/
 body {
-  background-color: #0f172a; /* dark slate background */
-  color: #f1f5f9; /* light text for contrast */
+  background-color: #0f172a; 
+  color: #f1f5f9; 
+
+  .blog-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.blog-content {
+  max-width: 650px;
+  text-align: center;
+  line-height: 1.6;
+}
+
 }
 
