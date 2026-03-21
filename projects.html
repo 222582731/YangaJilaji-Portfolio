@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Projects - Yanga Jilaji</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <div class="top-right-nav">
+    <a href="index.html" class="nav-btn all-btn">Home</a>
+    <a href="about.html" class="nav-btn all-btn">About Me</a>
+    <a href="contact.html" class="nav-btn all-btn">Contact Me</a>
+    <a href="certificate.html" class="nav-btn all-btn">Certificates</a>
+    <a href="blog.html" class="nav-btn all-btn active">Blog</a>
+  </div>
+
+  <section class="landing projects-page">
+  <h1>My Projects</h1>
+
+  <div class="projects-grid">
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img src="tutorFinderimg.png" alt="Tutor Finder System" />
+      <h3>Tutor Finder System</h3>
+      <p>
+        A full-stack web application designed to connect students with suitable tutors for academic support.
+        The platform enables secure authentication, tutor searching, and direct communication between students and tutors.
+        Students can browse tutor profiles, search by subject, and leave ratings and feedback.
+        Built using Java Spring Boot, RESTful APIs, MySQL, and a responsive frontend with HTML, CSS, and JavaScript.
+      </p>
+
+      <div class="project-links">
+        <a href="https://github.com/222582731/TutorFinderSystemPROJECT3" target="_blank" class="btn github-btn">
+          <i class="fab fa-github"></i> Frontend
+        </a>
+        <a href="https://github.com/222582731/TutorFinderSystemBackend" target="_blank" class="btn github-btn">
+          <i class="fab fa-github"></i> Backend
+        </a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="SMS Image.png" alt="School Management System" />
+      <h3>School Management System</h3>
+      <p>
+        A full-stack web application designed to streamline academic management and enhance communication between students and teachers.
+        The system supports secure login and role-based access, allowing students to track attendance, view grades, download coursework,
+        and communicate with teachers. Teachers can upload coursework, manage attendance and grades, and send messages.
+        Built using Java Spring Boot, RESTful APIs, MySQL, and a responsive frontend with HTML, CSS, and JavaScript.
+      </p>
+
+      <div class="project-links">
+        <a href="https://github.com/222582731/SchoolManagementSystemFrontend" target="_blank" class="btn github-btn">
+          <i class="fab fa-github"></i> Frontend
+        </a>
+        <a href="https://github.com/222582731/SchoolManagementSystem" target="_blank" class="btn github-btn">
+          <i class="fab fa-github"></i> Backend
+        </a>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <img src="homepage tyres & rims.png" alt="Tymelesstyre Ecommerce" />
+      <h3>Tymelesstyre E-Commerce</h3>
+      <p>
+        A full-stack e-commerce platform for selling car tyres and rims online. Customers can browse products,
+        add items to their cart, and place orders securely. The system includes JWT-based authentication and
+        role-based access control. An admin dashboard allows administrators to add, update, and remove products
+        while managing inventory. Built with Java Spring Boot, Spring Security, REST APIs, and a Vue.js frontend.
+      </p>
+
+      <div class="project-links">
+        <a href="https://github.com/222582731/TymelesstyreFrontend" target="_blank" class="btn github-btn">
+          <i class="fab fa-github"></i> Frontend
+        </a>
+        <a href="https://github.com/222582731/TymelessTyre" target="_blank" class="btn github-btn">
+          <i class="fab fa-github"></i> Backend
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+   <footer>
+    <p>&copy; <span id="year"></span> Yanga Jilaji. All rights reserved.</p>
+    <p>Connect with me:</p>
+    <div class="footer-links">
+      <a href="https://www.facebook.com/share/15wirzyfU1/?mibextid=wwXIfr" target="_blank" title="Facebook">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://www.instagram.com/yanga.jilaji?igsh=aTV6bDg5M3lvcm02&utm_source=qr" target="_blank" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://github.com/222582731" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
